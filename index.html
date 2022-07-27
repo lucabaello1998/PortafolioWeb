@@ -12,25 +12,29 @@
     <header id="mainheader">
 
         <nav id="navbar">
-            <div class=" nav-header">
-                <a href="#mainheader" class="logo">Luca Baello</a>
+            <div class=" nav-header light">
+                <a href="#mainheader" class="logo menu-nav light">Luca Baello</a>
                 <ul class="ul-header menu">
-                    <li><a href="#showcase">Inicio</a></li>
-                    <li><a href="#sobre-mi">Sobre Mi</a></li>
-                    <li><a href="#Servicios">Servicios</a></li>
-                    <li><a href="#resumen">Resumen</a></li>
-                    <li><a href="#Portfolio">Proyectos</a></li>
-                    <li><a href="#contacto">Contacto</a></li>
+                    <li><a class="menu-nav light memenu" href="#showcase">Inicio</a></li>
+                    <li><a class="menu-nav light memenu" href="#sobre-mi">Sobre Mi</a></li>
+                    <li><a class="menu-nav light memenu" href="#Servicios">Servicios</a></li>
+                    <li><a class="menu-nav light memenu" href="#resumen">Resumen</a></li>
+                    <li><a class="menu-nav light memenu" href="#Portfolio">Proyectos</a></li>
+                    <li><a class="menu-nav light memenu" href="#contacto">Contacto</a></li>
                 </ul>
-                <ul class="ul-header iconss">
-                    <i class="fa-solid fa-bars burger"></i>
-                    <li><a href="https://www.facebook.com/luciano.clain.545/"><i class="fa-brands fa-facebook"></i></a></li>
-                    <li><a href="https://twitter.com/i/flow/single_sign_on"><i class="fa-brands fa-twitter"></i></a></li>
-                    <li><a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a></li>
-                </ul>
+                <div class="icon-container">
+                    <ul class="ul-header iconss">
+                        <i class="fa-solid fa-bars burger menu-nav light"></i>
+                        <li><a class="menu-nav light" href="https://www.facebook.com/luciano.clain.545/"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a class="menu-nav light" href="https://twitter.com/i/flow/single_sign_on"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a class="menu-nav light" href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a></li>
+                    </ul>
+                    <button class="dark-btn"><i class="fa-solid fa-moon"
+                        id="moon"></i></button>
+                </div>
             </div>
         </nav>
-        <div id="showcase">
+        <div id="showcase" class="section-content-color light">
             <div class="container">
                 <div class="showcase-row">
                     <div class="showcase-row-hi">
@@ -54,10 +58,10 @@
 
     </header>
 
-    <section id="sobre-mi">
+    <section id="sobre-mi" class="section-content light">
         <div class="container">
             <div class="container-head">
-                <h5 class="center head">Sobre mi</h5>
+                <h5 class="centerheader center head black">Sobre mi</h5>
                 <h3 class="center">Conoceme mas</h3>
             </div>
             <div class="sobre-mi-row">
@@ -67,19 +71,19 @@
                 </div>
                 <div class="sobre-mi-row-exp">
                     <div id="container-exp">
-                        <h2>2</h2>
+                        <h2 class="nnumber number light">2</h2>
                     </div>
                     <h4>Años de <span id="experiencia">experiencia</span></h4>
                 </div>
             </div>
-            <div class="sobre-mi-row-datos">
+            <div class="sobre-mi-row-datos  light menu-nav">
                 <div id="datos-nombre" class="datos">
                     <h6>nombre:</h6>
                     <h5>Luca Baello</h5>
                 </div>
                 <div id="datos-email" class="datos">
                     <h6>email:</h6>
-                    <h5><a href="mailto:luca.baello@gmail.com">Luca.Baello@gmail</a></h5>
+                    <h5><a class="light menu-nav" href="mailto:luca.baello@gmail.com">Luca.Baello@gmail</a></h5>
                 </div>
                 <div id="datos-fecha" class="datos">
                     <h6>Fecha de nacimiento:</h6>
@@ -93,10 +97,10 @@
         </div>
     </section>
 
-    <section id="Servicios">
+    <section id="Servicios" class="section-content-grey light">
         <div class="container">
             <div class="container-head">
-                <h5 class="center head">Que es lo que hago?</h5>
+                <h5 class="center head centerheader">Que es lo que hago?</h5>
                 <h3 class="center">Como puedo ayudarte en tu siguiente proyecto</h3>
             </div>    
             <div class="servicios-row">
@@ -136,10 +140,10 @@
         </div>
     </section>
 
-    <section id="resumen">
+    <section id="resumen" class="section-content light">
         <div class="container">
             <div class="container-head">
-                <h5 class="center head">Resumen</h5>
+                <h5 class="center head centerheader">Resumen</h5>
                 <h3 class="center">Sumario de mis experencia y habilidades</h3>
             </div>
             <div id="resumen-column">
@@ -228,19 +232,19 @@
         </div>
     </section>
     
-    <section id="Portfolio">
+    <section id="Portfolio" class="section-content-grey light">
         <div class="container">
-            <div class="container-head">
+            <div class="container-head centerheader">
             <h5 class="center head">Portfolio</h5>
             <h3 class="center">Alguno de mis proyectos recientes</h3>
             </div>
                 <div class="portfolio-navbar">
                     <ul>
-                        <li><a>Todo</a></li>
-                        <li><a>Detallado</a></li>
-                        <li><a>Maquetas</a></li>
-                        <li><a>Videos YT</a></li>
-                        <li><a>Videos Vimeo</a></li>
+                        <li><a class="menu-nav">Todo</a></li>
+                        <li><a class="menu-nav">Detallado</a></li>
+                        <li><a class="menu-nav">Maquetas</a></li>
+                        <li><a class="menu-nav">Videos YT</a></li>
+                        <li><a class="menu-nav">Videos Vimeo</a></li>
                     </ul>
                 </div>
             <div id="proyects-row-wrap">
@@ -254,9 +258,9 @@
         </div>
     </section>
 
-    <section id="contacto">
+    <section id="contacto" class="section-content-color light">
         <div class="container">
-            <div class="contact-row">
+            <div class="contact-row centerheader">
                 <div id="touch">
                     <h3>Mantegamos el Contacto</h3>
                     <p>Estoy dispuesto a nuevos proyectos y desafios, por favor comparta tanta información como sea posible para que podamos aprovechar al máximo nuestra primera impresion.</p>
@@ -295,11 +299,11 @@
         </div>
     </section>
 
-    <section id="footer">
+    <section id="footer" class="section-content-color light">
         <div class="container">
             <div id="footer-row">
                 <div id="copyright">
-                    <p>Copyright@ 2021 <a href="https://www.google.com">Callum</a>. Todos los Derechos Reservados.</p>
+                    <p>Copyright@ 2021 <a href="https://www.google.com">Baello</a>. Todos los Derechos Reservados.</p>
                 </div>
                 <div id="design">
                     <p>Diseñado por<a href="https://www.instagram.com/luca_baello/"> Luca Baello</a></p>
@@ -307,5 +311,6 @@
             </div>
         </div>
     </section>
+    <script src="app.js"></script>
 </body>
 </html>

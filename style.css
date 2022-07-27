@@ -63,6 +63,16 @@ a{
     flex-direction: column;
 }
 
+.fa-solid{
+    color: gold;
+    font-size: 2.5rem;
+}
+
+.fa-moon{
+    color:black;
+    font-size: 2.3rem;
+}
+
 /* navbar head */
 .nav-header{
     display: flex;
@@ -91,7 +101,13 @@ a{
     margin: 0 10px;
 }
 
-.ul-header li a{
+/* .ul-header li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+} */
+
+.memenu{
     text-decoration: none;
     font-weight: bold;
     color: black;
@@ -102,6 +118,25 @@ a{
     text-decoration: none;
     font-weight: bold;
     color: black;
+    margin-top: 0px;
+    padding: 0 10px;
+}
+
+.icon-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.dark-btn{
+    border:none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#moon{
+    transition: color 1s linear;
 }
 
 /* Container */
@@ -242,7 +277,15 @@ a{
     z-index: 2;
 }
 
-#container-exp h2{
+/* #container-exp h2{
+    position: absolute;
+    left: 16px;
+    bottom: 0px;
+    font-size: 8rem;
+    color: rgb(49, 49, 49)
+} */
+
+.nnumber{
     position: absolute;
     left: 16px;
     bottom: 0px;
@@ -269,9 +312,14 @@ a{
     font-size: 0.7rem;
 }
 
-.sobre-mi-row-datos h5,a{
+/* .sobre-mi-row-datos h5,a{
     margin-top: 10px;
     color: black;
+} */
+
+.anchor{
+    color:red;
+    margin-top: 10px;
 }
 
 /* servicios */
@@ -293,12 +341,7 @@ a{
     padding-bottom: 50px;
 }
 
-.fa-solid{
-    color: gold;
-    font-size: 2.5rem;
-}
-
-#Servicios{
+.section-content-grey{
   background-color: rgb(236, 236, 236);  
 }
 
@@ -401,9 +444,7 @@ a{
 
 /* portfolio */
 
-#Portfolio{
-    background-color:#ddd;
-}
+
 
 .portfolio-navbar{
     display: flex;
@@ -566,7 +607,7 @@ textarea{
 
 /* query  800*/
 
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 880px){
 
     /* skillbars */
 
@@ -584,9 +625,6 @@ textarea{
         justify-content: space-between;
     }
 
-    .logo{
-        margin-bottom: 10px;
-    }
     .menu li{
         display: none;
     }
@@ -755,4 +793,36 @@ textarea{
     /* footer */
 }
 
+/* cambios de clases */
 
+.dark{
+    background-color: #121212;
+    color: white;
+    transition: all 0.5s;
+}
+
+.darkmn{
+    color: white;
+    transition: all 0.5s;
+}
+
+.light{
+    transition: 1s linear;
+}
+
+.dark-mode-btn{
+    color:white;
+}
+
+.dark_grey{
+    background-color: #121212;
+
+}
+
+.black_head{
+    color:black;
+}
+
+.number-black{
+    color:rgb(124, 124, 124)
+}
