@@ -8,6 +8,10 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 html,body{
     font-family: "Montserrat", sans-serif;
 }
@@ -438,7 +442,7 @@ a{
 .web-design {height: 10px; border-radius: 30px; width: 65%; background-color: gold;}
 .html-css {height: 10px;border-radius: 30px; width: 90%; background-color: gold;}
 .js {height: 10px;border-radius: 30px; width: 50%; background-color: gold;}
-.React {height: 10px;border-radius: 30px; width: 65%; background-color: gold;}
+.React {height: 10px;border-radius: 30px; width: 15%; background-color: gold;}
 .PHP {height: 10px;border-radius: 30px; width: 30%; background-color: gold;}
 .Bootstrap {height: 10px;border-radius: 30px; width: 95%; background-color: gold;}
 
