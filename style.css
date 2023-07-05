@@ -21,7 +21,7 @@ h1{
 }
 
 h2{
-    font-size: 1.8rem; 
+    font-size: 1.8rem;
 }
 
 h3{
@@ -68,6 +68,51 @@ a{
 }
 
 .fa-solid{
+    color: gold;
+    font-size: 2.5rem;
+}
+
+.fa-html5{
+    color: rgb(255, 145, 0);
+    font-size: 2.5rem;
+}
+
+.fa-php{
+    color: rgb(0, 0, 255);
+    font-size: 2.5rem;
+}
+
+.fa-bootstrap{
+    color: rgb(86, 61, 124);
+    font-size: 2.5rem;
+}
+
+.fa-node-js{
+    color: rgb(0, 255, 0);
+    font-size: 2.5rem;
+}
+
+.fa-database{
+    color: rgb(86, 92, 86);
+    font-size: 2.5rem;
+}
+
+.fa-cube{
+    color: rgb(35, 228, 202);
+    font-size: 2.5rem;
+}
+
+.fa-python{
+    color: rgb(34, 165, 22);
+    font-size: 2.5rem;
+}
+
+.fa-react{
+    color: rgb(97, 218, 251);
+    font-size: 2.5rem;
+}
+
+.fa-square-js{
     color: gold;
     font-size: 2.5rem;
 }
@@ -172,7 +217,7 @@ a{
     text-transform: uppercase;
 }
 
-.container-anim{  
+.container-anim{
         margin-top: 20px;
         display: inline-block;
         width: 400px;
@@ -346,7 +391,7 @@ a{
 }
 
 .section-content-grey{
-  background-color: rgb(236, 236, 236);  
+  background-color: rgb(236, 236, 236);
 }
 
 /* resumen */
@@ -372,7 +417,7 @@ a{
     padding: 20px;
 }
 
-.My-experience-column{   
+.My-experience-column{
     border-left: 2px solid gold;
     flex-basis: 50%;
     padding: 30px;
@@ -420,6 +465,14 @@ a{
     padding-bottom: 60px;
 }
 
+.skills-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
 .skillbars p{
     font-size: 1rem;
     font-weight: bold;
@@ -427,24 +480,12 @@ a{
     margin-bottom: 20px;
 }
 
-.container-bar{
-        width: 500px;
-        height: 10px; 
-        background-color: #ddd;
-        border-radius: 30px;
-}
+
 
 .skill {
     text-align: right;
     color: black;
 }
-
-.web-design {height: 10px; border-radius: 30px; width: 65%; background-color: gold;}
-.html-css {height: 10px;border-radius: 30px; width: 90%; background-color: gold;}
-.js {height: 10px;border-radius: 30px; width: 50%; background-color: gold;}
-.React {height: 10px;border-radius: 30px; width: 15%; background-color: gold;}
-.PHP {height: 10px;border-radius: 30px; width: 30%; background-color: gold;}
-.Bootstrap {height: 10px;border-radius: 30px; width: 95%; background-color: gold;}
 
 /* portfolio */
 
@@ -592,7 +633,7 @@ textarea{
 @media only screen and (max-width: 1150px){
     .container-bar{
         width: 400px;
-        height: 10px; 
+        height: 10px;
         background-color: #ddd;
         border-radius: 30px;
 }
@@ -603,7 +644,7 @@ textarea{
 @media only screen and (max-width: 970px){
     .container-bar{
         width: 325px;
-        height: 10px; 
+        height: 10px;
         background-color: #ddd;
         border-radius: 30px;
 }
@@ -617,7 +658,7 @@ textarea{
 
     .container-bar{
         width: 280px;
-        height: 10px; 
+        height: 10px;
         background-color: #ddd;
         border-radius: 30px;
     }
@@ -735,7 +776,7 @@ textarea{
         font-size: 1rem;
     }
     #footer-row{
-        padding: 10px;    
+        padding: 10px;
     }
     #copyright p{
         font-size: 0.60rem;
@@ -777,7 +818,7 @@ textarea{
         font-size: 1rem;
     }
     /* servicios */
-    
+
     .services{
         flex-basis: 100%;
     }
